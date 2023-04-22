@@ -11,9 +11,9 @@ int main() {
 	static int display_options;
 
 	static char input[12]; // Max range
-	static char input2[1]; // Multiple to be compared
+	static char input2[2]; // Multiple to be compared
 	static char input3[5]; // Display options
-	static char string_option[1];
+	static char string_option[7];
 
 	printf("\nRange: ");
 	scanf("%s", input);
